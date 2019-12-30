@@ -14,6 +14,7 @@
 
 Iris is a web analytics project (yes, yet another one). It aims to provide flexibility, simplicity without reinventing the wheel.
 It's composed by the following projects (which can each one be easily replaced):
+
 - `iris-client`: a lightweight JavaScript library that will trigger the events to be tracked
 - `iris-backend`: a simple application that will store the events triggered by `iris-client` into a database
 - `iris-db`: a `ClickHouse` database schema where `iris-backend` will store events
@@ -34,7 +35,7 @@ It is hard, then, to measure properly user bahaviour with these numbers and ther
 ### Software
 
 Web analytics, for any website that heavily relies on data, belonged to the realm of `big data` and by big data I mean the amount of data you cannot handle with traditional tools (if you have a better definition please share!).
-The way to handle big data was very cumbersome (very steep learning curve - yes, I'm looking at you, hadoop) or expensive (I'm now looking at your big data SaaS). 
+The way to handle big data was very cumbersome (very steep learning curve - yes, I'm looking at you, hadoop) or expensive (I'm now looking at your big data SaaS).
 Now new software allows everyone to run complex analytical queries in SQL (and dialects) in very modest hardware.
 
 ### Ownership
@@ -48,7 +49,7 @@ You should be able to change your analytical software depending on your very spe
 ## Help wanted
 
 If you are interested into participating in this project, let us know. We'll strongly need `Gophers`, `ClickHouse expert`, `JavaScript guru` and `web analytics masterminds`.
-Just contact us in any way you prefer. 
+Just contact us in any way you prefer.
 
 Let's change things!
 
