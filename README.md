@@ -1,4 +1,14 @@
-# Iris intro
+# Iris analytics
+
+- [Iris analytics](#iris-analytics)
+  - [Description](#description)
+  - [Reason to exist](#reason-to-exist)
+    - [Ad-blockers](#ad-blockers)
+    - [Software](#software)
+    - [Ownership](#ownership)
+    - [Customizable](#customizable)
+  - [Help wanted](#help-wanted)
+  - [Immediate TODO](#immediate-todo)
 
 ## Description
 
