@@ -15,8 +15,8 @@
 Iris is a web analytics project (yes, yet another one). It aims to provide flexibility, simplicity without reinventing the wheel.
 It's composed by the following projects (which can each one be easily replaced):
 
-- `iris-client`: a lightweight JavaScript library that will trigger the events to be tracked
-- `iris-backend`: a simple application that will store the events triggered by `iris-client` into a database
+- `iris-agent`: a lightweight JavaScript library that will trigger the events to be tracked
+- [iris-backend](https://github.com/iris-analytics/iris-backend): a simple application that will store the events triggered by `iris-agent` into a database
 - `iris-db`: a `ClickHouse` database schema where `iris-backend` will store events
 - `iris-dashboards`: a collection of `Grafana` dashboards to visualize events stored in `ClickHouse`
 
